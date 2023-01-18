@@ -8,6 +8,7 @@ async function promise() {
     const res = await response.json();
      console.log(res);
 
+    
     for (let i = 0; i < res.length; i++) {
       let data = [];
       data.push(res[i].image);
